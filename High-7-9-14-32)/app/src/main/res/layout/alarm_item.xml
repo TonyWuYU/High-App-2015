@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_gravity="center">
+        <TextView
+            android:visibility="gone"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:id="@+id/gender_text"/>
+        <ImageView android:id="@+id/set_gender"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="2.5"
+            android:src="@drawable/man"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true" />
+        <TextView android:id="@+id/set_time"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="12:00"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            />
+        <TextView android:id="@+id/set_cycle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="周末"
+            android:typeface="serif"
+            android:textSize="20sp" />
+        <ImageView
+            android:focusable="false"
+            android:id="@+id/on_off"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/turnon"
+            android:textSize="10sp"/>
+    </LinearLayout>
+</LinearLayout>

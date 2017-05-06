@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="5dip"
+    android:paddingBottom="1dip">
+    <TextView android:id="@+id/r_name"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="16sp"
+        android:singleLine="true" />
+    <Button
+        android:id="@+id/play_stop"
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/r_delete"
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>
